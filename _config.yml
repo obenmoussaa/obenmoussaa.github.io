@@ -2,7 +2,7 @@ title: Your Security Blog
 author: Your Name
 description: CTF Writeups, Security Tutorials and Lab Walkthroughs
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # the base hostname & protocol
+url: "https://obenmoussaa.github.io" # the base hostname & protocol
 
 # Build settings
 markdown: kramdown
