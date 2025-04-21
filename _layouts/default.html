@@ -16,9 +16,8 @@
       <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
       <nav>
         <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/tutorials' | relative_url }}">Tutorials</a>
-        <a href="{{ '/web' | relative_url }}">Web Labs</a>
-        <a href="{{ '/about' | relative_url }}">About</a>
+        <a href="{{ '/tutorials' | relative_url }}">Tutoriels</a>
+        <a href="{{ '/web' | relative_url }}">Web</a>
       </nav>
     </div>
   </header>
@@ -30,14 +29,8 @@
   <footer>
     <div class="container">
       <div class="social-links">
-        {% if site.twitter_username %}
-        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fab fa-twitter"></i></a>
-        {% endif %}
         {% if site.github_username %}
         <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fab fa-github"></i></a>
-        {% endif %}
-        {% if site.linkedin_username %}
-        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fab fa-linkedin"></i></a>
         {% endif %}
       </div>
       <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
