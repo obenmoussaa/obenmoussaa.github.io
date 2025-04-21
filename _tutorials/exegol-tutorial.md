@@ -2,7 +2,7 @@
 layout: post
 title: "Cross-Site Scripting (XSS): Tutoriel et Démonstration"
 date: 2025-04-21
-categories: web
+categories: tutorials
 tags: [xss, web-security, owasp-top-10, labs]
 ---
 
