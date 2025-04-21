@@ -6,8 +6,6 @@ permalink: /tutorials/
 
 # Tutoriels
 
-Découvrez mes tutoriels sur les outils et techniques de cybersécurité.
-
 {% assign sorted_tutorials = site.tutorials | sort: 'date' | reverse %}
 {% for tutorial in sorted_tutorials %}
 <div class="post-card">

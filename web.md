@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Web Labs
+title: Web
 permalink: /web/
 ---
 
 # Web Labs
-
-Explorez mes analyses de vulnérabilités web et mes solutions de CTF.
 
 {% assign sorted_web = site.web | sort: 'date' | reverse %}
 {% for web in sorted_web %}
