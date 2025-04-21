@@ -1,6 +1,7 @@
-title: Your Security Blog
-author: Your Name
-description: CTF Writeups, Security Tutorials and Lab Walkthroughs
+# Site settings
+title: "CyberNotes"
+author: "Oussama Ben Moussa"
+description: "Pentester et passionné par la cybersécurité, je partage ici mes découvertes, tutoriels et analyses de vulnérabilités."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://obenmoussaa.github.io" # the base hostname & protocol
 
@@ -37,11 +38,4 @@ defaults:
       layout: "post"
 
 # Social links (if you want to include them)
-twitter_username: yourusername
-github_username: yourusername
-linkedin_username: yourusername
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+github_username: obenmoussaa
