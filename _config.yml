@@ -1,0 +1,47 @@
+title: Your Security Blog
+author: Your Name
+description: CTF Writeups, Security Tutorials and Lab Walkthroughs
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima # You can change this or use a custom theme
+
+# Collections
+collections:
+  tutorials:
+    output: true
+    permalink: /tutorials/:path/
+  web:
+    output: true
+    permalink: /web/:path/
+
+# Default front matter settings
+defaults:
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "web"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Social links (if you want to include them)
+twitter_username: yourusername
+github_username: yourusername
+linkedin_username: yourusername
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
